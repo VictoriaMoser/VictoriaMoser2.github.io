@@ -1,0 +1,46 @@
+
+body,h1,h2 {
+  font-family: "Raleway", sans-serif;
+}
+body, html {
+  height: 100%;
+}
+p {
+  line-height: 2;
+}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {
+  background-image: url("img/castle.jpg");
+}
+.bgimg2 {
+  background-image: url("img/wedding2.jpg");
+}
+
+#textbox {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.3);
+   padding: 50px;
+}
+
+#wedding {
+  background-color: rgba(128,203,196,0.2) !important;
+}
+
+#us {
+  background-color: rgba(128,203,196,0.2) !important;
+}
+
+#rsvp {
+  background-color: rgba(128,203,196,0.5) !important;
+}
+
+#rsvp-button {
+  background-color: rgba(128,203,196,1.0) !important;
+}
