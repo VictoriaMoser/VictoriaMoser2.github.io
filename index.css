@@ -1,8 +1,17 @@
-body,h1,h2 {
+body,h2 {
   font-family: "Raleway", sans-serif;
 }
 body, html {
   height: 100%;
+}
+
+h1{
+  font-family: 'Alex Brush', cursive !important;
+  font-size: 10rem !important;
+}
+
+h2 {
+  font-size: 1.3em !important;
 }
 p {
   line-height: 2;
