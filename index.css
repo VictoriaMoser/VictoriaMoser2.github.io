@@ -5,9 +5,9 @@ body, html {
   height: 100%;
 }
 
-h1{
+#titleOfSite h1{
   font-family: 'Alex Brush', cursive !important;
-  font-size: 10rem !important;
+  font-size: 7rem !important;
 }
 
 h2 {
