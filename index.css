@@ -7,3 +7,12 @@ body, html {
 p {
   line-height: 2;
 }
+
+#titleOfSite {
+   margin-top: 50px !important;
+   padding-top: 100px !important;
+}
+
+#listOfSites {
+  margin-top: 70px !important;
+}
