@@ -2970,3 +2970,13 @@
 			}
 
 	}
+
+	/*---------------------------
+		My Styles
+	------------------------------*/
+
+img header h2 #hero {
+	max-width: 100% !important;
+  max-height: 100% !important;
+  position: relative;
+}
