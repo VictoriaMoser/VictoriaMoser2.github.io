@@ -2995,3 +2995,7 @@
   display: inline-block;
   padding: 0 20px;
 }
+
+.col-sm-6.icons {
+	float: none !important;
+}
