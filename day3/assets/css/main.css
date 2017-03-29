@@ -2986,3 +2986,12 @@
   max-height: 100% !important;
   position: relative;
 }
+
+.footer-nav {
+  text-align: center;
+}
+.footer-nav a {
+	text-align: center;
+  display: inline-block;
+  padding: 0 20px;
+}
