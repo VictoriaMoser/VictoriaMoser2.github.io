@@ -1,0 +1,22 @@
+.container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.item {
+  flex: 1 200px;
+}
+.item-2 {
+  flex-grow: 2;
+  justify-content: space-around;
+}
+/*justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+
+.item# {
+  order: 0; default order
+  order: 1; last in line
+  order: -1; to place before any other item with order zero which is the default
+}
+*/
