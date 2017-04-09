@@ -55,7 +55,7 @@ p {
 	width: 500px !important;
 }
 
-.mb-style-3 blockquote!important{
+.mb-style-3 blockquote {
 	background: #fff !important;
 	padding: 30px !important;
 	border-radius: 5px !important;
@@ -109,7 +109,7 @@ p {
 	font-size: 175px !important;
 	top: 0px !important;
 	left: -105px !important;
-	color: rgba(188, 147, 200, 1) !important;
+	color: rgba(188, 147, 200, 0.75) !important;
 	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1) !important;
 }
 /* Quote End*/
@@ -117,20 +117,6 @@ p {
 /* Footer */
 .main-footer {
 	text-align: center;
-	background: #d9e4ea;
+	background: rgba(188, 147, 200, 0.2) !important;
 	padding: 2em 0;
 	margin-top: 30px;
-
-
-@media (min-width: 769px) {
-	.row,
-  .footer-inner{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
-	.tagline {
-		font-size: 1.4em;
-	}
-}
-}
