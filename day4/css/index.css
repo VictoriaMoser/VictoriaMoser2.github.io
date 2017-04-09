@@ -18,7 +18,6 @@ ul {
 }
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
 }
 h2,
 h3,
@@ -56,7 +55,7 @@ img {
 	padding: 10px 15px;
 }
 .main-nav a {
-	font-size: .75em;
+	font-size: .85em;
 	color: #3acec2;
 	text-transform: uppercase;
 }
@@ -77,8 +76,8 @@ img {
 .banner {
 	color: #fff;
 	background: #3acec2;
-	padding: 3.2em 0;
-	margin-bottom: 48px;
+	padding: 1.8em 0;
+	margin-bottom: 32px;
 }
 .col {
 	padding-right: 1em;
@@ -93,7 +92,7 @@ img {
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 190px;
+	width: 140px;
 }
 .headline {
 	margin-bottom: 0;
@@ -108,9 +107,13 @@ img {
 
 @media (min-width: 769px) {
 	.main-header,
-	.row {
+	.row,
+  .footer-inner{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
+	}
+	.tagline {
+		font-size: 1.4em;
 	}
 }
