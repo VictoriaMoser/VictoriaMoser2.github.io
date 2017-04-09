@@ -25,6 +25,14 @@ body {
   width: 30%;
 }
 
+footer {
+  display: flex;
+}
+
+.main-footer {
+  justify-content: space-around;
+}
+
 /* =================================
   Media Queries
 ==================================== */
@@ -32,13 +40,15 @@ body {
 @media (max-width: 769px) {
 	.row {
 		display: flex;
-    flex-direction: column;
+    flex-flow: row;
+    flex-wrap: wrap;
     align-self: center;
     }
-	}
-	.col {
-		flex: 1;
-    flex-direction: column;
+  .primary {
+    flex: 0 0 100%;
   }
 
+  .secondary {
+    flex: 0 0 100%;
+  }
 }
