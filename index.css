@@ -28,7 +28,7 @@ p {
 #listOfSites {
    margin-top: 100px !important;
 }
-
+/* Quote Beginning */
 .mb-wrap {
 	width: 200px !important;
 	margin: 20px auto !important;
@@ -111,4 +111,26 @@ p {
 	left: -105px !important;
 	color: rgba(188, 147, 200, 1) !important;
 	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1) !important;
+}
+/* Quote End*/
+
+/* Footer */
+.main-footer {
+	text-align: center;
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+
+
+@media (min-width: 769px) {
+	.row,
+  .footer-inner{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
 }

@@ -1,6 +1,11 @@
 /*****************************
   BASE STYLES
 ******************************/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 
 .primary {
   width: 60%;
@@ -13,4 +18,5 @@
 .row {
   display: flex;
   justify-content: space-around;
+  flex: 1;
 }
