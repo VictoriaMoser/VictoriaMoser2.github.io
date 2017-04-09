@@ -10,6 +10,9 @@ body {
 }
 
 .row {
+  display: -webkit-flex;/* Safari*/
+  display: flex;
+  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -30,19 +33,12 @@ body {
 	.row {
 		display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    align-self: center;
     }
 	}
 	.col {
-		flex: 1 300px;
+		flex: 1;
     flex-direction: column;
   }
-}
 
-@media (max-width: 1025px) {
-
-	.primary {
-		flex: 2;
-	}
 }
