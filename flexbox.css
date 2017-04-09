@@ -1,27 +1,16 @@
-@media (min-width: 769px) {
+/*****************************
+  BASE STYLES
+******************************/
 
-  .row {
-    display: flex;
-  }
-
-  .col {
-  flex: 1;
-  }
+.primary {
+  width: 30%;
 }
 
-@media (min-width: 1025px) {
+.secondary {
+  width: 30%;
+}
 
-  .secondary {
-  flex: 2;
-}
-}
-/*justify-content: center;
+.row {
+  display: flex;
   justify-content: space-around;
-  justify-content: space-between;
-
-.item# {
-  order: 0; default order
-  order: 1; last in line
-  order: -1; to place before any other item with order zero which is the default
 }
-*/
