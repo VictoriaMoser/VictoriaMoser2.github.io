@@ -2,12 +2,21 @@
 /*****************************
   BASE STYLES
 ******************************/
+
+html {
+  height: 100%;
+}
+
 body {
+  min-height: 100%;
   display: -webkit-flex;/* Safari*/
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
   margin: 0;
+}
+
+.container {
+  flex: 1;
 }
 
 body,
@@ -37,6 +46,16 @@ button,
 .btn-primary:hover {
   background: #b4b4b4;
   transition: 500ms;
+  border: none;
+}
+
+button,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+  background: #b4b4b4;
+  transition: 500ms;
+  border: none;
 }
 
 
@@ -178,6 +197,7 @@ i:hover {
 
   #listOfSites {
     margin-top: 100px;
+    align-items: center;
   }
   footer {
     width: 100%;
