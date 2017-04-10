@@ -44,7 +44,7 @@ button,
 
 button,
 .btn-primary:hover {
-  background: #b4b4b4;
+  background: rgba(180, 180, 180, 0.3);
   transition: 500ms;
   border: none;
 }
@@ -53,7 +53,7 @@ button,
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:visited {
-  background: #b4b4b4;
+  background: rgba(180, 180, 180, 0.5);
   transition: 500ms;
   border: none;
 }
