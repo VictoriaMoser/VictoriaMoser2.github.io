@@ -1,8 +1,67 @@
+
+/*****************************
+  BASE STYLES
+******************************/
+body {
+  display: -webkit-flex;/* Safari*/
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 body,h2 {
   font-family: "Raleway", sans-serif;
 }
-body, html {
-  height: 100vh;
+
+.row {
+  display: -webkit-flex;/* Safari*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.primary {
+  width: 60%;
+}
+
+.secondary {
+  width: 30%;
+}
+
+footer {
+  display: flex;
+}
+
+.main-footer {
+  justify-content: space-around;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (max-width: 769px) {
+	.row {
+		display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-self: center;
+    }
+  .primary {
+    flex: 0 0 100%;
+  }
+
+  .secondary {
+    flex: 0 0 100%;
+  }
+}
+
+
+
+
+
+.container {
+  display
 }
 
 #titleOfSite h1{
