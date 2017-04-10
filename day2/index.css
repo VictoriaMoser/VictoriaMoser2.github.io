@@ -30,17 +30,17 @@ p {
 }
 
 #wedding {
-  background-color: rgba(128,203,196,0.2) !important;
+  background-color: rgba(128,203,196,0.2) ;
 }
 
 #us {
-  background-color: rgba(128,203,196,0.2) !important;
+  background-color: rgba(128,203,196,0.2) ;
 }
 
 #rsvp {
-  background-color: rgba(128,203,196,0.5) !important;
+  background-color: rgba(128,203,196,0.5) ;
 }
 
 #rsvp-button {
-  background-color: rgba(128,203,196,1.0) !important;
+  background-color: rgba(128,203,196,1.0) ;
 }
