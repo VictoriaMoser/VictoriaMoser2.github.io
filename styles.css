@@ -82,13 +82,14 @@ button,
 
 footer {
   display: flex;
-  height: 100px;
+  height: 75px;
   background: rgba(188, 147, 200, 0.25);
-  justify-content: space-around;
+  justify-content: center;
 }
 
 i {
   color: #b4b4b4;
+  margin-right: 20px;
 }
 
 i:hover {
